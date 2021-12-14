@@ -1,0 +1,310 @@
+nav {
+  display: flex;
+    font-family: 'Fira Code', monospace; 
+    background: rgba( 113, 109, 142, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+body, .contactbody {
+    font-family: 'Fira Code', monospace;
+    background-color: #041938;
+    height: auto;
+}
+
+#welcome, #pageMsg, #portfolio, #aboutMe {
+display: flex;
+width: 100%;
+height: 30vh;
+font-size: 7vh;
+color: aliceblue;
+justify-content: center;
+align-items: center;
+}
+
+#highlights {
+    display: flex;
+    width: auto;
+    font-size: 6vh;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#carouselExampleCaptions, .carousel-indicators, #wrapper, #wrapper1, #wrapper2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+#pic {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#pic img {
+  border-radius: 30px;
+  margin-bottom: 150px;
+}
+
+.carousel-inner {
+    display: flex; 
+    height: auto;
+    width: auto;
+  
+}
+
+.lang, .contact, .pCWrapper{
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  perspective: 1200px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+ flex-wrap: wrap;
+ 
+}
+
+.lang {
+  display: flex;
+  padding-left: 140px;
+  height: auto;
+  padding: 40px;
+  justify-content: center;
+  width: auto;
+  overflow: auto;
+  max-height: 100%;
+  
+}
+
+.langWrapper {
+  display: flex;
+  justify-items: center;
+  height: auto;
+  overflow: auto;
+  flex-wrap: wrap;
+  width: auto;
+  max-height: 100%;
+  
+}
+
+.langWrapper .card {
+  display: flex;
+  max-height: 370px;
+  object-fit: contain;
+  
+  
+}
+
+#langtext, #portfolio {
+    display: flex;
+    width: auto;
+    padding-top: 5px;
+    justify-content: center;
+    height: auto;
+}
+
+h1, #portfolio {
+    font-size: 7vh;
+    color: aliceblue;
+}
+
+
+.card {
+  background: rgba( 113, 109, 142, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: aliceblue;
+transform: rotateX(20deg) translateZ(0px) scale(1);
+transition: .5s cubic-bezier(0.07, 0.77, 0.85, 1.61);
+margin: 5px;
+height: auto;
+width: auto;
+}
+
+.card img, .contact img {
+  border-radius: 30px 30px 0px 0px;
+  min-height: 100px;
+}
+
+.card:hover, .contact img:hover, .aboutMeText:hover {
+  transform: rotateX(0deg) translateZ(50px) scale(1.05);
+  box-shadow: 0px 100px 120px -60px rgba(98, 98, 98, 0.75);
+}
+
+@media only screen and (max-width: 600px) {
+  .lang, .contact {
+      height: 1400px;
+      width: 100%;
+      align-content: space-around;
+
+  }
+
+  .card, .contact {
+      margin-top: 50px;
+      width: 70%;
+      height: auto;
+      
+  }
+}
+
+.carousel-item img{
+  display: flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  
+}
+
+.cWrapper {
+  margin-top: 1px;
+  height: auto;
+  width: auto;
+  justify-content: center;
+
+}
+
+
+
+
+
+.contactEdit {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 15vh;
+
+}
+
+
+.contact {
+  display: flex;
+  width: 50%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  
+}
+
+
+
+.pCWrapper .card {
+  margin-bottom: 30px;
+}
+
+
+
+.contact img {
+  background: rgba( 113, 109, 142, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transform: rotateX(20deg) translateZ(0px) scale(1);
+transition: .5s cubic-bezier(0.07, 0.77, 0.85, 1.61);
+width: 400px;
+}
+
+
+#pageMsg, #aboutMe {
+  height: 20vh;
+}
+
+footer {
+  display: flex;
+  font-family: 'Fira Code', monospace; 
+  background: rgba( 113, 109, 142, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  height: 60px;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+}
+
+.pCWrapper {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  min-height: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3vh;
+  
+
+}
+
+
+ .pCWrapper img {
+  max-height: 185px;
+ }
+
+
+.aWrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  perspective: 1200px;
+ 
+}
+
+
+
+ .aboutMeText {
+   display: flex;
+   height: 502px;
+   width: 50vh;
+   display: auto;
+   font-family: 'Fira Code', monospace; 
+   background: rgba( 113, 109, 142, 0.25 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 4px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   overflow-wrap: break-word;
+   transform: rotateX(20deg) translateZ(0px) scale(1);
+  transition: .5s cubic-bezier(0.07, 0.77, 0.85, 1.61);
+  margin-top: 30px;
+  
+  
+
+color: aliceblue;
+ }
+
+ a {
+   color: yellow;
+   display: inherit;
+   text-decoration-line: none;
+ }
+
+ .video {
+   display: flex;
+   justify-content: center;
+ }
+
+ .contact a {
+   perspective: 1400px;
+ }
